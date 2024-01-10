@@ -1,38 +1,261 @@
-.App {
-  text-align: center;
+:root {
+  --off-white: #fceedc;
+  --bluish: #d8dad3;
+  --off-white-shadow: -11px 11px 25px 10px rgba(138, 131, 124, 0.23);
+  --bluish-shadow: -11px 11px 25px 10px rgba(138, 131, 124, 0.384);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  margin: 0;
+  background-color: var(--off-white);
+  font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-left-div {
+  width: 30%;
+  margin-left: 3%;
+}
+
+.nav-right-div {
+  width: 65%;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-link {
+  margin: 0px 20px 0px 20px;
+}
+
+main {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.inner-div {
+  width: 80%;
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: var(--off-white-shadow);
+  background-color: var(--off-white);
+}
+
+.inner-left-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 5% 5% 5%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.inner-right-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px 20px 0px;
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.project-img {
+  width: 100%;
+  height: auto;
+  box-shadow: var(--off-white-shadow);
+}
+
+p {
+  line-height: 2;
+}
+
+.general-button {
+  width: 60px;
+  line-height: 1.5;
+  font-size: 16px;
+  border-radius: 14px;
+  color: var(--off-white);
+  background-color: #1a1818;
+  border: none;
+}
+
+.project-button-div {
+  margin-top: 40px;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.skill-category-div {
+  box-shadow: -1px 1px 15px 5px rgba(138, 131, 124, 0.384);
+  padding: 0px 20px 10px 20px;
+  width: 25%;
+  margin-bottom: 20px;
+  background-color: var(--off-white);
+}
+
+#skills-inner-div {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 0px 20px 0px;
+  height: 405px;
+  width: 80%;
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: var(--bluish-shadow);
+  background-color: var(--bluish);
+}
+
+
+li {
+  margin-bottom: 5px;
+}
+
+#skills-section {
+  background-color: var(--bluish);
+}
+
+.white-to-blue {
+  background: linear-gradient(to bottom, var(--off-white), var(--bluish));
+  height: 100px;
+  width: 100%;
+}
+
+.blue-to-white {
+  background: linear-gradient(to bottom, var(--bluish), var(--off-white));
+  height: 100px;
+  width: 100%;
+}
+
+.about-me-img {
+  width: 30%;
+  height: auto;
+  box-shadow: var(--off-white-shadow);
+  margin: 40px;
+}
+
+.about-me-p {
+  margin: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hind', sans-serif;
+}
+
+h4 {
+  text-align: center;
+}
+
+#hero-section {
+  background-image: url('../public/assets/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+}
+
+#connect-inner-div {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: var(--bluish);
+  width: 50%;
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: var(--off-white-shadow);
+  padding: 40px 0px 40px 0px;
+}
+
+#connect-section {
+  background-color: var(--bluish);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 1244px) {
+
+  #hero-section {
+      background-image: none;
+      height: 200px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-link {
+      margin: 0px;
+  }
+
+  .inner-div {
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+
+  .inner-left-div {
+      width: 100%;
+  }
+  
+  .inner-right-div {
+      width: 95%;
+      margin: 20px;
+  }
+
+  #connect-inner-div {
+      width: 100%;
+      box-shadow: none;
+  }
+
+  .about-me-p {
+      margin: 0px 40px 40px 40px;
+  }
+
+  #skills-inner-div {
+      height: auto;
+      width: 100%;
+      box-shadow: none;
+  }
+
+  .skill-category-div {
+      width: 80%;
+  }
+
+  .nav-name {
+      display: none;
+  }
+
+  .nav-left-div {
+      width: 0%;
+  }
+
+  .nav-right-div {
+      width: 100%;
+      justify-content: space-around;
   }
 }

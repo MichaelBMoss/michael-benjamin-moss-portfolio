@@ -16,16 +16,17 @@ function App() {
         </div>
     </header>
     <main>
-        <Section id="hero-section">
-            <span style="font-size: 90px;">Hello!</span>
-            <span style="font-size: 20px; margin-left: 20px; margin-right: 20px;">My name is Michael Moss. I'm a full-stack software engineer!</span>
-        </Section>
+    <section id="hero-section">
+      <span style={{ fontSize: '90px' }}>Hello!</span>
+      <span style={{ fontSize: '20px', marginLeft: '20px', marginRight: '20px' }}>My name is Michael Moss. I'm a full-stack software engineer!</span>
+    </section>
+
 
         <section id="projects-section">
             <h1>Projects</h1>
             <div class="inner-div" id="rehomr">
                 <div class="inner-left-div">
-                    <img class="project-img" src="assets/rehomr.png">
+                    <img class="project-img" src="assets/rehomr.png" />
                     <div class="project-button-div">
                         <a href="https://rehomr-58ea4d4dc5ca.herokuapp.com/"><button class="general-button">Site</button></a>
                         <a href="https://github.com/MichaelBMoss/rehomr"><button class="general-button">Github</button></a>
@@ -38,7 +39,7 @@ function App() {
             </div>
             <div class="inner-div" id="simmr">
                 <div class="inner-left-div">
-                    <img class="project-img" src="assets/simmr.png">
+                    <img class="project-img" src="assets/simmr.png" />
                     <div class="project-button-div">
                         <a href="https://simmr-a4e862a95079.herokuapp.com/"><button class="general-button">Site</button></a>
                         <a href="https://github.com/MichaelBMoss/simmr"><button class="general-button">Github</button></a>
@@ -52,7 +53,7 @@ function App() {
             </div>
             <div class="inner-div" id="wardrobe-aspiration-library">
                 <div class="inner-left-div">
-                    <img class="project-img" src="assets/wal.png">
+                    <img class="project-img" src="assets/wal.png" />
                     <div class="project-button-div">
                         <a href="https://wardrobe-aspiration-library-bb6858182927.herokuapp.com/"><button class="general-button">Site</button></a>
                         <a href="https://github.com/MichaelBMoss/Mongodb_Express_Node.js-Wardrobe-Aspiration-Library"><button class="general-button">Github</button></a>
@@ -65,7 +66,7 @@ function App() {
             </div>
             <div class="inner-div" id="battle-of-ships">
                 <div class="inner-left-div">
-                    <img class="project-img" src="assets/battle-of-ships.png">
+                    <img class="project-img" src="assets/battle-of-ships.png" />
                     <div class="project-button-div">
                         <a href="https://michaelbmoss.github.io/Static_Game-Battle_of_Ships/"><button class="general-button">Site</button></a>
                         <a href="https://github.com/MichaelBMoss/Static_Game-Battle_of_Ships"><button class="general-button">Github</button></a>
@@ -79,7 +80,7 @@ function App() {
             </div>
             <div class="inner-div" id="currency-value-chart">
                 <div class="inner-left-div">
-                    <img class="project-img" src="assets/CVA.png">
+                    <img class="project-img" src="assets/CVA.png" />
                     <div class="project-button-div">
                         <a href="https://michaelbmoss.github.io/React_SPA-Currency_Value_Chart/"><button class="general-button">Site</button></a>
                         <a href="https://github.com/MichaelBMoss/React_SPA-Currency_Value_Chart"><button class="general-button">Github</button></a>
@@ -99,7 +100,7 @@ function App() {
             <h1>Skills</h1>
             <div id="skills-inner-div">
                 <div class="skill-category-div">
-                    <h4 style="text-align: center;">Programming Languages</h4>
+                    <h4>Programming Languages</h4>
                     <ul>
                         <li>JavaScript</li>
                         <li>Python</li>
@@ -107,7 +108,7 @@ function App() {
                 </div>
                 
                 <div class="skill-category-div">
-                    <h4 style="text-align: center;">APIs and Data Exchange</h4>
+                  <h4>APIs and Data Exchange</h4>
                     <ul>
                         <li>API integration</li>
                         <li>AJAX (Server communication)</li>
@@ -117,7 +118,7 @@ function App() {
                 </div>
 
                 <div class="skill-category-div">
-                    <h4 style="text-align: center;">Server-Side Technologies</h4>
+                    <h4>Server-Side Technologies</h4>
                     <ul>
                         <li>Node.js (Runtime environment for JavaScript)</li>
                         <li>PostgreSQL (database)</li>
@@ -127,7 +128,7 @@ function App() {
                 </div>
                 
                 <div class="skill-category-div">
-                    <h4 style="text-align: center;">Cloud Services</h4>
+                    <h4>Cloud Services</h4>
                     <ul>
                         <li>Amazon S3 (Photo Storage)</li>
                         <li>Heroku (Application host)</li>
@@ -135,7 +136,7 @@ function App() {
                 </div>
 
                 <div class="skill-category-div">
-                    <h4 style="text-align: center;">Web Frameworks and Libraries</h4>
+                    <h4>Web Frameworks and Libraries</h4>
                     <ul>
                         <li>Django (Python web framework)</li>
                         <li>Express (Node.js web framework)</li>
@@ -144,7 +145,7 @@ function App() {
                 </div>
 
                 <div class="skill-category-div">
-                    <h4 style="text-align: center;">Version Control and Collaboration</h4>
+                    <h4>Version Control and Collaboration</h4>
                     <ul>
                         <li>Git</li>
                         <li>GitHub</li>
@@ -163,7 +164,7 @@ function App() {
                 <p class="about-me-p">I have always enjoyed crafting solutions to complex problems. After spending almost a decade specializing in the teaching of logic and problem solving I became fascinated with the recent developments in artificial intelligence. I completed a 480 hour software engineering immersive program and I now apply my skills to coding and software development.
                 
                 Beyond coding, I love to have a laugh. I love live comedy, cult films, pastrami sandwiches and my adorable chihuahua, Pepe. I'm excited to contribute my coding skills to the tech world. Let's connect and explore how I can be an asset to your team.</p>
-                <img class="about-me-img" src="assets/mike.png">
+                <img class="about-me-img" src="assets/mike.png" />
             </div>
         </section>
 
@@ -172,7 +173,7 @@ function App() {
         <section id="connect-section">
             <h1>Connect</h1>
             <div id="connect-inner-div">
-                <a href="assets/Michael Moss Resume.pdf"></ahref>Download My Resume</a>
+                <a href="assets/Michael Moss Resume.pdf">Download My Resume</a>
                 <span>Email: MichaelBMoss@gmail.com</span>
                 <a href="https://www.linkedin.com/in/michaelbmoss">LinkedIn: https://www.linkedin.com/in/michaelbmoss</a>
                 <a href="https://github.com/MichaelBMoss">Github: https://github.com/MichaelBMoss</a>

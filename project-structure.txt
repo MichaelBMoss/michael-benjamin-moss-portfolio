@@ -1,0 +1,32 @@
+.
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── project-structure.txt
+├── public
+│   ├── assets
+│   │   ├── battle-of-ships.png
+│   │   ├── CVA.png
+│   │   ├── hero.jpg
+│   │   ├── hero-mobile.jpg
+│   │   ├── Michael Moss Resume.pdf
+│   │   ├── mike.png
+│   │   ├── rehomr.png
+│   │   ├── simmr.png
+│   │   └── wal.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── reportWebVitals.js
+    └── setupTests.js
+
+3 directories, 26 files
