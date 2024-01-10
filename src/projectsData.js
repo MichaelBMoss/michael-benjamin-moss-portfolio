@@ -1,6 +1,4 @@
-// data.js
-
-const data = [
+const projectsData = [
     {
       id: 'rehomr',
       imageUrl: 'assets/rehomr.png',
@@ -43,5 +41,5 @@ const data = [
     },
   ];
   
-  export default data;
+  export default projectsData;
   
