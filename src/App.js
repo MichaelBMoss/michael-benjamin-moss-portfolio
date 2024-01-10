@@ -1,5 +1,6 @@
 import './App.css';
 import data from './data';
+import ProjectCard from './ProjectCard';
 
 function App() {
   return (
@@ -24,7 +25,18 @@ function App() {
 
         <section id="projects-section">
             <h1>Projects</h1>
-            <div class="inner-div" id="rehomr">
+            {data.map((item) => (
+              <ProjectCard
+                key={item.id}
+                id={item.id}
+                imageUrl={item.imageUrl}
+                siteUrl={item.siteUrl}
+                githubUrl={item.githubUrl}
+                title={item.title}
+                description={item.description}
+              />
+            ))}
+            {/* <div class="inner-div" id="rehomr">
                 <div class="inner-left-div">
                     <img class="project-img" src="assets/rehomr.png" />
                     <div class="project-button-div">
@@ -91,7 +103,7 @@ function App() {
                     <p>
                         Currency Value Chart is a React-based front-end web app showcasing API integration and CSS transitions. The app features an interactive bar chart displaying the values of popular world currencies relative to the US dollar. Users can select and compare up to five currencies, with dynamic bar sizing for easy visualization. Data is sourced from the Exchange Rates Data API by apilayer.com.</p>
                 </div>
-            </div>
+            </div> */}
         </section>
 
         <section class="white-to-blue"></section>
