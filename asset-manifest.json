@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/css/main.294b2352.css",
-    "main.js": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/js/main.fe07beba.js",
-    "static/js/787.a19c81e5.chunk.js": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/js/787.a19c81e5.chunk.js",
-    "static/media/hero.jpg": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/media/hero.bacd5a1dcea8e7a27e61.jpg",
-    "index.html": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/index.html",
-    "main.294b2352.css.map": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/css/main.294b2352.css.map",
-    "main.fe07beba.js.map": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/js/main.fe07beba.js.map",
-    "787.a19c81e5.chunk.js.map": "/http//:MichaelBMoss.github.io/michael-benjamin-moss-portfolio/static/js/787.a19c81e5.chunk.js.map"
+    "main.css": "/michael-benjamin-moss-portfolio/static/css/main.0326ec68.css",
+    "main.js": "/michael-benjamin-moss-portfolio/static/js/main.43dc4559.js",
+    "static/js/787.a19c81e5.chunk.js": "/michael-benjamin-moss-portfolio/static/js/787.a19c81e5.chunk.js",
+    "static/media/hero.jpg": "/michael-benjamin-moss-portfolio/static/media/hero.bacd5a1dcea8e7a27e61.jpg",
+    "index.html": "/michael-benjamin-moss-portfolio/index.html",
+    "main.0326ec68.css.map": "/michael-benjamin-moss-portfolio/static/css/main.0326ec68.css.map",
+    "main.43dc4559.js.map": "/michael-benjamin-moss-portfolio/static/js/main.43dc4559.js.map",
+    "787.a19c81e5.chunk.js.map": "/michael-benjamin-moss-portfolio/static/js/787.a19c81e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.294b2352.css",
-    "static/js/main.fe07beba.js"
+    "static/css/main.0326ec68.css",
+    "static/js/main.43dc4559.js"
   ]
 }
