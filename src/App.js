@@ -6,7 +6,7 @@ import SkillCard from './SkillCard';
 
 function App() {
   return (
-<body>
+<div>
     <header className="nav">
         <div className="nav-left-div">
                 <span className="nav-name">Michael Moss / Full Stack Software Engineer</span>
@@ -82,7 +82,7 @@ function App() {
             </div>
         </section>
     </main>
-</body>
+</div>
   );
 }
 
