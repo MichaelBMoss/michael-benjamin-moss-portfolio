@@ -63,7 +63,8 @@ function App() {
                 <p className="about-me-p">I have always enjoyed crafting solutions to complex problems. After spending almost a decade specializing in the teaching of logic and problem solving I became fascinated with the recent developments in artificial intelligence. I completed a 480 hour software engineering immersive program and I now apply my skills to coding and software development.
                 
                 Beyond coding, I love to have a laugh. I love live comedy, cult films, pastrami sandwiches and my adorable chihuahua, Pepe. I'm excited to contribute my coding skills to the tech world. Let's connect and explore how I can be an asset to your team.</p>
-                <img className="about-me-img" src="assets/mike.png" alt='portrait of Michael Moss' />
+                <img className="about-me-img" src={process.env.PUBLIC_URL + '/assets/mike.png'} alt='portrait of Michael Moss' />
+
             </div>
         </section>
 
@@ -72,10 +73,12 @@ function App() {
         <section id="connect-section">
             <h1>Connect</h1>
             <div id="connect-inner-div">
-                <a href="assets/Michael Moss Resume.pdf">Download My Resume</a>
-                <span>Email: MichaelBMoss@gmail.com</span>
-                <a href="https://www.linkedin.com/in/michaelbmoss">LinkedIn: https://www.linkedin.com/in/michaelbmoss</a>
-                <a href="https://github.com/MichaelBMoss">Github: https://github.com/MichaelBMoss</a>
+              <a href={process.env.PUBLIC_URL + '/assets/Michael Moss Resume.pdf'} download="Michael Moss Resume">
+                <button>Download My Resume</button>
+              </a>
+              <span>Email: MichaelBMoss@gmail.com</span>
+              <a href="https://www.linkedin.com/in/michaelbmoss">LinkedIn: https://www.linkedin.com/in/michaelbmoss</a>
+              <a href="https://github.com/MichaelBMoss">Github: https://github.com/MichaelBMoss</a>
             </div>
         </section>
     </main>

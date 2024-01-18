@@ -1,7 +1,7 @@
 const projectsData = [
     {
       id: 'rehomr',
-      imageUrl: 'assets/rehomr.png',
+      imageUrl: process.env.PUBLIC_URL + '/assets/rehomr.png',
       siteUrl: 'https://rehomr-58ea4d4dc5ca.herokuapp.com/',
       githubUrl: 'https://github.com/MichaelBMoss/rehomr',
       title: 'reHomr',
@@ -9,7 +9,7 @@ const projectsData = [
     },
     {
       id: 'simmr',
-      imageUrl: 'assets/simmr.png',
+      imageUrl: process.env.PUBLIC_URL + '/assets/simmr.png',
       siteUrl: 'https://simmr-a4e862a95079.herokuapp.com/',
       githubUrl: 'https://github.com/MichaelBMoss/simmr',
       title: 'Simmr',
@@ -17,7 +17,7 @@ const projectsData = [
     },
     {
       id: 'wardrobe-aspiration-library',
-      imageUrl: 'assets/wal.png',
+      imageUrl: process.env.PUBLIC_URL + '/assets/wal.png',
       siteUrl: 'https://wardrobe-aspiration-library-bb6858182927.herokuapp.com/',
       githubUrl: 'https://github.com/MichaelBMoss/Mongodb_Express_Node.js-Wardrobe-Aspiration-Library',
       title: 'Wardrobe Aspiration Library',
@@ -25,7 +25,7 @@ const projectsData = [
     },
     {
       id: 'battle-of-ships',
-      imageUrl: 'assets/battle-of-ships.png',
+      imageUrl: process.env.PUBLIC_URL + '/assets/battle-of-ships.png',
       siteUrl: 'https://michaelbmoss.github.io/Static_Game-Battle_of_Ships/',
       githubUrl: 'https://github.com/MichaelBMoss/Static_Game-Battle_of_Ships',
       title: 'Battle of Ships',
@@ -33,7 +33,7 @@ const projectsData = [
     },
     {
       id: 'currency-value-chart',
-      imageUrl: 'assets/CVA.png',
+      imageUrl: process.env.PUBLIC_URL + '/assets/CVA.png',
       siteUrl: 'https://michaelbmoss.github.io/React_SPA-Currency_Value_Chart/',
       githubUrl: 'https://github.com/MichaelBMoss/React_SPA-Currency_Value_Chart',
       title: 'Currency Value Chart',
