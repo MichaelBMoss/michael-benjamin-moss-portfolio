@@ -7,15 +7,15 @@ import SkillCard from './SkillCard';
 function App() {
   return (
 <body>
-    <header class="nav">
-        <div class="nav-left-div">
-                <span class="nav-name">Michael Moss / Full Stack Software Engineer</span>
+    <header className="nav">
+        <div className="nav-left-div">
+                <span className="nav-name">Michael Moss / Full Stack Software Engineer</span>
         </div>
-        <div class="nav-right-div">
-            <a href="#projects-section" class="nav-link">Projects</a>
-            <a href="#skills-section"class="nav-link">Skills</a>
-            <a href="#about-me-section"class="nav-link">About Me</a>
-            <a href="#connect-section"class="nav-link">Connect</a>
+        <div className="nav-right-div">
+            <a href="#projects-section" className="nav-link">Projects</a>
+            <a href="#skills-section"className="nav-link">Skills</a>
+            <a href="#about-me-section"className="nav-link">About Me</a>
+            <a href="#connect-section"className="nav-link">Connect</a>
         </div>
     </header>
     <main>
@@ -40,7 +40,7 @@ function App() {
             ))}
         </section>
 
-        <section class="white-to-blue"></section>
+        <section className="white-to-blue"></section>
 
         <section id="skills-section">
             <h1>Skills</h1>
@@ -55,19 +55,19 @@ function App() {
             </div>
         </section>
 
-        <section class="blue-to-white"></section>
+        <section className="blue-to-white"></section>
 
         <section id="about-me-section">
             <h1>About Me</h1>
-            <div class="inner-div" id="about-me-inner-div">
-                <p class="about-me-p">I have always enjoyed crafting solutions to complex problems. After spending almost a decade specializing in the teaching of logic and problem solving I became fascinated with the recent developments in artificial intelligence. I completed a 480 hour software engineering immersive program and I now apply my skills to coding and software development.
+            <div className="inner-div" id="about-me-inner-div">
+                <p className="about-me-p">I have always enjoyed crafting solutions to complex problems. After spending almost a decade specializing in the teaching of logic and problem solving I became fascinated with the recent developments in artificial intelligence. I completed a 480 hour software engineering immersive program and I now apply my skills to coding and software development.
                 
                 Beyond coding, I love to have a laugh. I love live comedy, cult films, pastrami sandwiches and my adorable chihuahua, Pepe. I'm excited to contribute my coding skills to the tech world. Let's connect and explore how I can be an asset to your team.</p>
-                <img class="about-me-img" src="assets/mike.png" alt='portrait of Michael Moss' />
+                <img className="about-me-img" src="assets/mike.png" alt='portrait of Michael Moss' />
             </div>
         </section>
 
-        <section class="white-to-blue"></section>
+        <section className="white-to-blue"></section>
 
         <section id="connect-section">
             <h1>Connect</h1>
